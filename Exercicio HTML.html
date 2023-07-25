@@ -6,12 +6,19 @@
     <title>Exercicio 01</title>
 </head>
 <body>
-    <input type="text" placeholder="Insira seu nome">
-    <br />
-    <input type="email" placeholder="Insira seu email">
-    <br />
-    <input type="password" placeholder="Insira sua senha">
-    <br />
-    <input type="button"> <label>Realizar cadastro</label>
+    <form>
+        <label for="nome">Insira seu nome</label>
+        <input id="nome" type="text" placeholder="Nome">
+        <br />
+        <label for="e-mail">Insira seu e-mail</label>
+        <input id="e-mail" type="email" placeholder="E-mail">
+        <br />
+        <label for="senha">Insira sua senha</label>
+        <input id="senha" type="password" placeholder="Senha">
+        <br />
+        <button type="submit">
+            Realizar cadastro
+        </button>
+    </form>
 </body>
 </html>
